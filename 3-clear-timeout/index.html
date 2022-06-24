@@ -8,17 +8,21 @@
     <title>Javascript</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./app.css">
 </head>
 
 <body>
     <main class="container py-4">
         <h2>
             Javascript
-            <small class="text-muted">:: Debouncing</small>
+            <small class="text-muted">:: clearTimeout</small>
         </h2>
         <hr>
 
-        <input onkeyup="betterFunction()" type="text" class="form-control mt-5" placeholder="Search..." />
+        <!-- <div id="content" class="border-box mt-4"></div> -->
+        <button onclick="startCount()">Start count!</button>
+        <input type="text" id="demo">
+        <button onclick="stopCount()">Stop count!</button>
     </main>
 
     <script src="./app.js"></script>
